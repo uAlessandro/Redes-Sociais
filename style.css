@@ -6,22 +6,21 @@
 html,body{
     height: 100vh;
     width: 100vw;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 
 }
 body{
     background:url('imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
- background-attachment: fixed;
+    background-attachment: fixed;
+    background-color: white;
     
 
 }
-main{
-   height: 100vh;
-   position: relative;
+
  
 
-}
+
 #telefone{
     position: absolute;
     top: 50%;
@@ -45,3 +44,24 @@ iframe#tela{
     
  
 }
+img{
+    width: clamp(4rem, 5vw, 7rem);
+    border-radius: 100%;
+    padding: 10px;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+#redes-sociais{
+    text-align: right;
+    padding:20px;
+}
+
+.menu:hover{
+   border-style: dashed ;
+   color: rgba(255, 255, 255, 0.986);
+   transition: 1s;
+
+}
+
+
